@@ -14,6 +14,6 @@ app.use('/persons', persons_route) //telling that all persons are routed to the 
 con.on('open', ()=>{        //this function is an event handler it activates when the connection is opened
     console.log('Connected to database')
 }) 
-app.listen(port,()=>{
+app.listen(port,()=>{ 
     console.log(`Listening on port ${port}`)
 })
